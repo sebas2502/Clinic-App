@@ -1,0 +1,30 @@
+{
+  "name": "clinicback",
+  "version": "1.0.0",
+  "description": "backend of clinic-app",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebas2502/clinicApp.git"
+  },
+  "keywords": [
+    "cont0297"
+  ],
+  "author": "Sebastian Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebas2502/clinicApp/issues"
+  },
+  "homepage": "https://github.com/sebas2502/clinicApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
